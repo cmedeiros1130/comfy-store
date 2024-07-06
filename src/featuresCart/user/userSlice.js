@@ -15,6 +15,7 @@ const getThemeFromLocalStorage = () => {
 const getUserFromLocalStorage = () => {
   return JSON.parse(localStorage.getItem("user")) || null;
 };
+console.log(getUserFromLocalStorage);
 
 const initialState = {
   user: { username: "coding addict" },
